@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.subset-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.menu {
+    background-color: rgba(3, 130, 193, 0.933);
+    padding: 1.5% 2% 0 2%;
+    height: auto;
+    width: 60%;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: inline;
+}
+
+#dash-icon {
+    height: 2.3rem;
+}
+
+.icons {
+    height: 1.2rem;
+}
+
+.profile-picture {
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 2% 0 2%;
+}
+
+.profile-picture2 {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 2% 0 2%; 
+}
+
+.edit {
+    height: 30%;
+    padding: 1.7%;
+}
+
+.edit-items {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+input {
+    background-color: #e2e8f0;;
+    border: transparent;
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+    margin-right: 20%;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.textImg {
+    align-items: center;
+    display: flex;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+.options > div {
+    flex: 1;
+    height: 10%;
+}
+
+.btn-order {
+    margin-left: 23%;
+}
+
+.cards {
+    background-color: #e2e8f0;;
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+    gap: 1rem;
+}
+
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.icons-options {
+    height: 1.4rem;
+}
+
+.projects {
+    grid-row: 1 / 3;
+}
+
+.item-cards {
+    border-left: 5px solid rgba(247, 198, 3, 0.967);
+    background-color: white;
+    border-radius: 5px;
+    padding: 6% 7% 5% 4%;
+}
+
+.card-text {
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.short {
+    margin-bottom: 4rem;
+}
+
+.iconpack {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+button {
+    width: 5.5em;
+    height: 2em;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(3, 130, 193, 0.933);
+    margin-right: 5%;
+}
+
+.announce-contents {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem 2rem 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+.profiles {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.contents > p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.user {
+    font-size: 0.8rem;
+}
+
+.usertext {
+    color: gray;
+    
+}
+
